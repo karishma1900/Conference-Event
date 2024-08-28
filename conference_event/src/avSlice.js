@@ -9,32 +9,32 @@ export const avSlice = createSlice({
   name: "av",
   initialState: [
         {
-        img: "projector",
+        img: projector,
         name: "Projectors",
         cost: 200,
         quantity: 0,
     },
     {
-        img: "speaker",
+        img: speaker,
         name: "Speaker",
         cost: 35,
         quantity: 0,
     },
     {
-        img: "microphone",
+        img: microphone,
         name: "Microphones",
         cost: 45,
         quantity: 0,
     },
     {
-        img: "whiteboard",
+        img: whiteboard,
         name: "Whiteboards",
         cost: 80,
         quantity: 0,
     },
 
     {
-        img: "signage",
+        img: signage,
         name: "Signage",
         cost: 80,
         quantity: 0,
