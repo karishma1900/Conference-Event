@@ -1,6 +1,10 @@
 // venueSlice.js
 import { createSlice } from "@reduxjs/toolkit";
 import conference from './assets/conferenceroom.jpg'
+import auditorium from './assets/audiotoriumhall.webp'
+import presentation from './assets/presentationroom.jpg'
+import meeting from './assets/largemeetingroom.jpg'
+import smallmeeting from './assets/smallmeetingroom.jpeg'
 // Import other images as needed
 
 
@@ -15,25 +19,25 @@ export const venueSlice = createSlice({
       quantity: 0,
     },
     {
-      img: "",
+      img: auditorium,
       name: "Auditorium Hall (Capacity:200)",
       cost: 5500,
       quantity: 0,
     },
     {
-      img: "",
+      img: presentation,
       name: "Presentation Room (Capacity:50)",
       cost: 700,
       quantity: 0,
     },
     {
-      img: "Room",
+      img: meeting,
       name: "Large Meeting Room (Capacity:10)",
       cost: 900,
       quantity: 0,
     },
     {
-      img: "",
+      img: smallmeeting,
       name: "Small Meeting Room (Capacity:5)",
       cost: 1100,
       quantity: 0,
